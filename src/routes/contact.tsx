@@ -4,20 +4,20 @@ import { SectionHeading } from "@/components/site/SectionHeading";
 import { Phone, Mail, MapPin, MessageCircle, Send, CheckCircle2 } from "lucide-react";
 
 const ADDRESS = "27/59 K L Goswami Sarani, Mahesh, Serampore, Hooghly, West Bengal 712202";
-const PHONE = "+91 79800 80592";
-const PHONE_HREF = "tel:+917980080592";
+const PHONE = "+91 82829 40554";
+const PHONE_HREF = "tel:+918282940554";
 const EMAIL = "janardansharma88@gmail.com";
 const EMAIL_HREF = "mailto:janardansharma88@gmail.com";
-const WHATSAPP_NUMBER = "917980080592";
+const WHATSAPP_NUMBER = "918282940554";
 const WHATSAPP_HREF = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Sharma%20Elite%2C%20I%20am%20interested%20in%20interior%20design%20services`;
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Sharma Elite Interior Studio" },
-      { name: "description", content: "Book a free site visit or get in touch with Sharma Elite Interior Studio in Serampore, Hooghly. Call +91 79800 80592 or WhatsApp us." },
+      { name: "description", content: "Book a free site visit or get in touch with Sharma Elite Interior Studio in Serampore, Hooghly. Call +91 82829 40554 or WhatsApp us." },
       { property: "og:title", content: "Contact — Sharma Elite Interior Studio" },
-      { property: "og:description", content: "Free consultation & site visit. Call or WhatsApp +91 79800 80592." },
+      { property: "og:description", content: "Free consultation & site visit. Call or WhatsApp +91 82829 40554." },
     ],
   }),
   component: ContactPage,
