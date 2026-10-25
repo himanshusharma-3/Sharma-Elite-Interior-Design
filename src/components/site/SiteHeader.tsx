@@ -2,8 +2,8 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
-const PHONE = "+91 79800 80592";
-const PHONE_HREF = "tel:+917980080592";
+const PHONE = "+91 82829 40554";
+const PHONE_HREF = "tel:+918282940554";
 
 const nav = [
   { to: "/", label: "Home" },
