@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 
-const WHATSAPP_LINK = "https://wa.me/917980080592?text=Hi%20Sharma%20Elite%2C%20I%20am%20interested%20in%20interior%20design%20services";
+const WHATSAPP_LINK = "https://wa.me/918282940554?text=Hi%20Sharma%20Elite%2C%20I%20am%20interested%20in%20interior%20design%20services";
 
 export function WhatsAppChat() {
   const [mounted, setMounted] = useState(false);
