@@ -6,6 +6,8 @@ import { Phone, Mail, MapPin, MessageCircle, Send, CheckCircle2 } from "lucide-r
 const ADDRESS = "27/59 K L Goswami Sarani, Mahesh, Serampore, Hooghly, West Bengal 712202";
 const PHONE = "+91 82829 40554";
 const PHONE_HREF = "tel:+918282940554";
+const SECONDARY_PHONE = "+91 98832 22328";
+const SECONDARY_PHONE_HREF = "tel:+919883222328";
 const EMAIL = "janardansharma88@gmail.com";
 const EMAIL_HREF = "mailto:janardansharma88@gmail.com";
 const WHATSAPP_NUMBER = "918282940554";
@@ -15,9 +17,9 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Sharma Elite Interior Studio" },
-      { name: "description", content: "Book a free site visit or get in touch with Sharma Elite Interior Studio in Serampore, Hooghly. Call +91 82829 40554 or WhatsApp us." },
+      { name: "description", content: "Book a free site visit or get in touch with Sharma Elite Interior Studio in Serampore, Hooghly. Call +91 82829 40554 or +91 98832 22328, or WhatsApp us." },
       { property: "og:title", content: "Contact — Sharma Elite Interior Studio" },
-      { property: "og:description", content: "Free consultation & site visit. Call or WhatsApp +91 82829 40554." },
+      { property: "og:description", content: "Free consultation & site visit. Call +91 82829 40554 or WhatsApp us." },
     ],
   }),
   component: ContactPage,
@@ -171,6 +173,7 @@ function ContactPage() {
 
         <div className="space-y-4">
           <ContactCard icon={Phone} title="Call us" value={PHONE} href={PHONE_HREF} />
+          <ContactCard icon={Phone} title="Alternate number" value={SECONDARY_PHONE} href={SECONDARY_PHONE_HREF} />
           <ContactCard icon={MessageCircle} title="WhatsApp" value="Chat instantly" href={WHATSAPP_HREF} />
           <ContactCard icon={Mail} title="Email" value={EMAIL} href={EMAIL_HREF} />
           <ContactCard icon={MapPin} title="Studio" value={ADDRESS} />
