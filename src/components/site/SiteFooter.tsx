@@ -3,11 +3,11 @@ import { MapPin, Mail, Phone } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const ADDRESS = "27/59 K L Goswami Sarani, Mahesh, Serampore, Hooghly, West Bengal 712202";
-const PHONE = "+91 79800 80592";
-const PHONE_HREF = "tel:+917980080592";
+const PHONE = "+91 82829 40554";
+const PHONE_HREF = "tel:+918282940554";
 const EMAIL = "janardansharma88@gmail.com";
 const EMAIL_HREF = "mailto:janardansharma88@gmail.com";
-const WHATSAPP_HREF = "https://wa.me/917980080592?text=Hi%20Sharma%20Elite%2C%20I%20am%20interested%20in%20interior%20design%20services";
+const WHATSAPP_HREF = "https://wa.me/918282940554?text=Hi%20Sharma%20Elite%2C%20I%20am%20interested%20in%20interior%20design%20services";
 
 export function SiteFooter() {
   const [year, setYear] = useState<string>("");
