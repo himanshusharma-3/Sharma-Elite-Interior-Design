@@ -5,6 +5,8 @@ import { useState, useEffect } from "react";
 const ADDRESS = "27/59 K L Goswami Sarani, Mahesh, Serampore, Hooghly, West Bengal 712202";
 const PHONE = "+91 82829 40554";
 const PHONE_HREF = "tel:+918282940554";
+const SECONDARY_PHONE = "+91 98832 22328";
+const SECONDARY_PHONE_HREF = "tel:+919883222328";
 const EMAIL = "janardansharma88@gmail.com";
 const EMAIL_HREF = "mailto:janardansharma88@gmail.com";
 const WHATSAPP_HREF = "https://wa.me/918282940554?text=Hi%20Sharma%20Elite%2C%20I%20am%20interested%20in%20interior%20design%20services";
@@ -51,6 +53,10 @@ export function SiteFooter() {
             <li className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-gold shrink-0" />
               <a href={PHONE_HREF} className="hover:text-gold">{PHONE}</a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone className="w-4 h-4 text-gold shrink-0" />
+              <a href={SECONDARY_PHONE_HREF} className="hover:text-gold">{SECONDARY_PHONE}</a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-gold shrink-0" />
